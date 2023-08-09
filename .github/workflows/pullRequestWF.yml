@@ -1,0 +1,14 @@
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  placeholder_job:
+    runs-on: ubuntu-latest
+    name: Placeholder
+    steps:
+      - name: Echo Message
+        run: |
+          echo "Will add code checks here in next challenge"
